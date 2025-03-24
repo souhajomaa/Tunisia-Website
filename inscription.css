@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+form {
+  background-color: #fff;
+  padding: 40px 60px;
+  border-radius: 10px;
+  min-width: 300px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+form h1 {
+  color: #206125;
+}
+
+form .social-media {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+form .social-media p {
+  padding: 8px;
+  border-radius: 50%;
+  border: 1px solid #545454;
+  cursor: pointer;
+  color: #545454;
+  transition: 0.3s;
+}
+
+form .social-media p:hover {
+  background-color: #206125;
+  color: #fff;
+}
+
+.choose-email {
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputs input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #35813b;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #206125;
+}
+
+.inscription {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.inscription span {
+  color: #206125;
+  cursor: pointer;
+  font-weight: bold;
+}
